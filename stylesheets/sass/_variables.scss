@@ -1,0 +1,23 @@
+//font
+$font: Verdana;
+$font_color:white;
+//colors
+$color_pri: rgb(63, 78, 28);
+$color_sec: rgb(15, 15, 11);
+$color_detail:   rgb(25, 34, 17);
+
+
+
+@mixin borderFade($side,$start, $end) {
+    mask-image: linear-gradient(to $side, transparent ,  white $start,white $end,transparent);
+}
+
+@mixin borderFadeDiv{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    background: linear-gradient(to top,$color_sec,$color_pri  10%,$color_pri 90%,$color_sec);
+}
