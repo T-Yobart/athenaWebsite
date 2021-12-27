@@ -1,12 +1,10 @@
 //font
-$font: Verdana;
+$font: 'Roboto', sans-serif;
 $font_color:white;
 //colors
-$color_pri: rgb(63, 78, 28);
+$color_pri: rgb(50, 53, 59);
 $color_sec: rgb(15, 15, 11);
 $color_detail:   rgb(25, 34, 17);
-
-
 
 @mixin borderFade($side,$start, $end) {
     mask-image: linear-gradient(to $side, transparent ,  white $start,white $end,transparent);

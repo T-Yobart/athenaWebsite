@@ -106,5 +106,20 @@ body{
                 }
             }
         }
+        >div:last-child{
+            > section{
+            
+                > div{
+                    margin:{
+                        left:20%;
+                        right:20%;
+                    }
+                    padding:5%;
+                    * {
+                        background:none;
+                    }
+                }
+            }
+        }
     }
 }

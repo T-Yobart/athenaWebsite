@@ -8,62 +8,10 @@ html {
   width: 100%;
   background: repeating-linear-gradient(75deg, #0f0f0b, #0f0f0b 9vmax, #192211 9vmax, #192211 42vmax) fixed; }
 
-.success {
-  border: 3px solid #00ad00;
-  border-radius: 6px; }
-  .success label {
-    flex-basis: 25%; }
-  .success p {
-    font-size: 200%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 25%;
-    color: #00ad00; }
-
-.error {
-  border: 3px solid red;
-  border-radius: 6px; }
-  .error label {
-    flex-basis: 25%; }
-  .error p {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 25%;
-    color: red; }
-
-ul {
-  list-style: none; }
-
-section ul li {
-  border-color: transparent;
-  border-top: #192211;
-  border-width: 5px;
-  border-style: solid;
-  list-style: none; }
-
-button {
-  background-color: transparent;
-  color: white;
-  padding: 1rem;
-  margin: 2%;
-  border: 3px solid #192211;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  transition-duration: 0.4s;
-  cursor: pointer; }
-
-button:hover {
-  background-color: #0f0f0b;
-  color: white; }
-
-a:link, a:visited {
-  color: white; }
-
 body {
   height: 100%;
   width: 100%;
-  font-family: Verdana;
+  font-family: "Roboto", sans-serif;
   color: white; }
   body nav {
     position: fixed;
@@ -71,7 +19,7 @@ body {
     z-index: 900;
     height: 5vh;
     width: 100%;
-    background: #3f4e1c;
+    background: #32353b;
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
@@ -108,7 +56,7 @@ body {
       margin-bottom: 5%;
       padding-top: 5%;
       padding-bottom: 5%;
-      background: #3f4e1c;
+      background: #32353b;
       width: 100%;
       flex-shrink: 1;
       flex-grow: 1;
@@ -149,5 +97,11 @@ body {
           flex-shrink: 1;
           flex-grow: 1;
           flex-basis: 50%; }
+    body main > div:last-child > section > div {
+      margin-left: 20%;
+      margin-right: 20%;
+      padding: 5%; }
+      body main > div:last-child > section > div * {
+        background: none; }
 
 /*# sourceMappingURL=index.css.map */
