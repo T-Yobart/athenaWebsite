@@ -103,5 +103,8 @@ body {
       padding: 5%; }
       body main > div:last-child > section > div * {
         background: none; }
+      body main > div:last-child > section > div div a:not(:last-child) img {
+        width: 100px;
+        height: 12px; }
 
 /*# sourceMappingURL=index.css.map */

@@ -118,6 +118,10 @@ body{
                     * {
                         background:none;
                     }
+                    div a:not(:last-child) img{
+                        width:100px;
+                        height:12px;
+                    }
                 }
             }
         }
