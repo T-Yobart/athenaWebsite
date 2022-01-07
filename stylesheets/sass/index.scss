@@ -108,7 +108,6 @@ body{
         }
         >div:last-child{
             > section{
-            
                 > div{
                     margin:{
                         left:20%;
@@ -126,4 +125,8 @@ body{
             }
         }
     }
+}
+.ts3v_user_tooltip{
+    position: absolute;
+    left: -9099px;
 }

@@ -34,15 +34,15 @@ $text=$text['index'];
                 </path>
                 </svg>
             </a>
-            <a href="teamspeak://athenacompany.co.uk?port=9987">
+            <a href="ts3server://athenacompany.co.uk?port=9987">
                 <img alt="teamspeak link" src="	https://teamspeak.com/user/themes/teamspeak/images/favicon.png"
                 width=50" height="50">
             </a>
         </nav>
     </header>
-        <video autoplay muted loop id="myVideo">
-            <source src="https://cdn.discordapp.com/attachments/804979732461518848/858425194029121566/ArmA_3_2021.06.26_-_19.10.18.03.mp4" type="video/mp4">
-        </video>
+    <video autoplay muted loop id="myVideo">
+        <source src="https://cdn.discordapp.com/attachments/804979732461518848/858425194029121566/ArmA_3_2021.06.26_-_19.10.18.03.mp4" type="video/mp4">
+    </video>
     <main>
         <div>
             <section>
@@ -68,12 +68,12 @@ $text=$text['index'];
         </div>
         <div>
             <section>
-<div id="ts3viewer_1125685" style=""> </div>
-<script src="https://static.tsviewer.com/short_expire/js/ts3viewer_loader.js"></script>
-<script>
-var ts3v_url_1 = "https://www.tsviewer.com/ts3viewer.php?ID=1125685&text=818181&text_size=12&text_family=1&text_s_color=818181&text_s_weight=normal&text_s_style=normal&text_s_variant=normal&text_s_decoration=none&text_i_color=818181&text_i_weight=normal&text_i_style=normal&text_i_variant=normal&text_i_decoration=none&text_c_color=818181&text_c_weight=normal&text_c_style=normal&text_c_variant=normal&text_c_decoration=none&text_u_color=818181&text_u_weight=normal&text_u_style=normal&text_u_variant=normal&text_u_decoration=none&text_s_color_h=818181&text_s_weight_h=bold&text_s_style_h=normal&text_s_variant_h=normal&text_s_decoration_h=none&text_i_color_h=818181&text_i_weight_h=bold&text_i_style_h=normal&text_i_variant_h=normal&text_i_decoration_h=none&text_c_color_h=818181&text_c_weight_h=bold&text_c_style_h=normal&text_c_variant_h=normal&text_c_decoration_h=none&text_u_color_h=818181&text_u_weight_h=bold&text_u_style_h=normal&text_u_variant_h=normal&text_u_decoration_h=none&iconset=default_colored_2014_tsv";
-ts3v_display.init(ts3v_url_1, 1125685, 100);
-</script>
+                <div id="ts3viewer_1125685" style=""> </div>
+                <script src="https://static.tsviewer.com/short_expire/js/ts3viewer_loader.js"></script>
+                <script>
+                var ts3v_url_1 = "https://www.tsviewer.com/ts3viewer.php?ID=1125685&text=818181&text_size=12&text_family=1&text_s_color=818181&text_s_weight=normal&text_s_style=normal&text_s_variant=normal&text_s_decoration=none&text_i_color=818181&text_i_weight=normal&text_i_style=normal&text_i_variant=normal&text_i_decoration=none&text_c_color=818181&text_c_weight=normal&text_c_style=normal&text_c_variant=normal&text_c_decoration=none&text_u_color=818181&text_u_weight=normal&text_u_style=normal&text_u_variant=normal&text_u_decoration=none&text_s_color_h=818181&text_s_weight_h=bold&text_s_style_h=normal&text_s_variant_h=normal&text_s_decoration_h=none&text_i_color_h=818181&text_i_weight_h=bold&text_i_style_h=normal&text_i_variant_h=normal&text_i_decoration_h=none&text_c_color_h=818181&text_c_weight_h=bold&text_c_style_h=normal&text_c_variant_h=normal&text_c_decoration_h=none&text_u_color_h=818181&text_u_weight_h=bold&text_u_style_h=normal&text_u_variant_h=normal&text_u_decoration_h=none&iconset=default_colored_2014_tsv";
+                ts3v_display.init(ts3v_url_1, 1125685, 100);
+                </script>
             </section>
         </div>
     </main>
